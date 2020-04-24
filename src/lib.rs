@@ -1,12 +1,12 @@
 // region: lmake_readme include "readme.md" //! A
 //! # rust_wasm_websys_utils
-//! 
+//!
 //! version: 0.4.2  date: 2020-04-24 authors: Luciano Bestia  
 //! **micro crate web_sys and js_sys functions for my project**
-//! 
-//! 
+//!
+//!
 //! ## web_sys and js_sys
-//! 
+//!
 //! When developing the mem6 game  
 //! <https://github.com/LucianoBestia/mem6_game>  
 //! I needed a lot of web_sys and js_sys functions.  
