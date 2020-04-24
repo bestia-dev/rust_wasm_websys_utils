@@ -9,7 +9,14 @@ readme = "README.md"
 license = "MIT"
 keywords = ["wasm","web_sys","js_sys"]
 categories = ["wasm","web-programming","web-programming.categories.http-client"]
-publish = false
+# publish as a crates.io library. Only this files.
+publish = true
+include = [
+    "Cargo.toml",
+    "LICENSE",
+    "README.md",
+    "src/*",
+]
 
 [dependencies]
 unwrap = "1.2.1"
