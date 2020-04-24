@@ -1,20 +1,18 @@
 [package]
 name = "rust_wasm_websys_utils"
-version = "2020.218.1306"
+version = "0.4.2"
 authors = ["Luciano Furlan <Luciano.Bestia@gmail.com>"]
 edition = "2018"
-description = "web_sys and js_sys functions for the project"
+description = "micro crate web_sys and js_sys functions for my project"
 repository = "https://github.com/LucianoBestia/rust_wasm_websys_utils"
 readme = "README.md"
 license = "MIT"
 keywords = ["wasm","web_sys","js_sys"]
-categories = ["game","learning"]
+categories = ["wasm","web-programming","web-programming.categories.http-client"]
 publish = false
 
 [dependencies]
 unwrap = "1.2.1"
-
-
 wasm-bindgen = { version = "0.2.58", features = ["serde-serialize"] }
 #newer version of rand do not have smallring
 rand = { version = "0.7.3", features = ["wasm-bindgen","small_rng"] }

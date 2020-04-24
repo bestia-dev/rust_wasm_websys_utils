@@ -1,13 +1,14 @@
 // websysmod.rs
-//! helper functions for web_sys, window, document, dom, console, local_storage, session_storage
+//! helper functions for web_sys, window, document, dom, console,
+//! local_storage, session_storage
 
 // region: use
-use web_sys::console;
+use rand::{rngs::SmallRng, Rng, SeedableRng};
 use unwrap::unwrap;
-use rand::{Rng, rngs::SmallRng, SeedableRng};
-use wasm_bindgen::{JsValue, JsCast};
+use wasm_bindgen::{JsCast, JsValue};
+use wasm_bindgen_futures::JsFuture;
+use web_sys::console;
 use web_sys::{Request, RequestInit, Response};
-use wasm_bindgen_futures::{JsFuture};
 // endregion: use
 
 /// return window object
