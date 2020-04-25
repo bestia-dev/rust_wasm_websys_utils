@@ -19,4 +19,4 @@
 // This is a library, the functions are not used in this crate.
 #![allow(dead_code)]
 
-mod websysmod;
+pub mod websysmod;
