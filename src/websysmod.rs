@@ -226,3 +226,34 @@ pub fn prepare_json_msg_receivers_for_one(receiver_ws_uid: usize) -> String {
 }
 
 // endregion: debug_text
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn prepare_json_msg_receivers_for_one01() {
+        assert_eq!("[123]", prepare_json_msg_receivers_for_one(123));
+    }
+
+    fn utf8_truncate01() {
+        let mut x = "abcdefg".to_string();
+        utf8_truncate(&mut x, 3);
+        assert_eq!("abc", &x);
+    }
+}
+
+mod wasm_bindgen_test {
+    extern crate wasm_bindgen_test;
+    use wasm_bindgen_test::*;
+
+    #[wasm_bindgen_test]
+    fn pass() {
+        assert_eq!(1, 1);
+    }
+
+    #[wasm_bindgen_test]
+    fn fail() {
+        assert_eq!(1, 2); 
+    }
+}

@@ -31,7 +31,7 @@ skip_core_tasks = true
     clear=true
     dependencies = [
 		# Binaries version is date
-        # "lmake_version_from_date"
+        # "lmake_version_from_date",
         # Library version is semver
         "semver_increment_patch",	
         "build_release",
@@ -43,7 +43,14 @@ skip_core_tasks = true
     dependencies = [
         "cargo_fmt", 
     ]
-	
+
+    [tasks.test]
+    description = "cargo test --release"
+    clear = true
+    script = [
+        "cargo test --release",
+    ]
+
     [tasks.audit]
     description = "cargo audit - for warning dependencies"
     clear = true
@@ -148,7 +155,7 @@ script= ["lmake_semver --increment=patch"]
 description = "in cargo.toml change version to today date"
 clear = true
 private = true
-script= ["lmake_version_from_date ../webfolder/${CARGO_MAKE_CRATE_NAME}/service_worker.js"]
+script= ["lmake_version_from_date"]
 				 
 [tasks.build_release]
 description = "build for release"					 

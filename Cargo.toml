@@ -1,6 +1,6 @@
 [package]
 name = "rust_wasm_websys_utils"
-version = "0.4.3"
+version = "0.4.4"
 authors = ["Luciano Bestia <Luciano.Bestia@gmail.com>"]
 edition = "2018"
 description = "micro crate web_sys and js_sys functions for my project"
@@ -8,7 +8,7 @@ repository = "https://github.com/LucianoBestia/rust_wasm_websys_utils"
 readme = "README.md"
 license = "MIT"
 keywords = ["wasm","web_sys","js_sys"]
-categories = ["wasm","web-programming","web-programming.categories.http-client"]
+categories = ["wasm","web-programming"]
 # publish as a crates.io library. Only this files.
 publish = true
 include = [
@@ -20,14 +20,14 @@ include = [
 
 [dependencies]
 unwrap = "1.2.1"
-wasm-bindgen = { version = "0.2.58", features = ["serde-serialize"] }
+wasm-bindgen = { version = "0.2.60", features = ["serde-serialize"] }
 #newer version of rand do not have smallring
 rand = { version = "0.7.3", features = ["wasm-bindgen","small_rng"] }
 js-sys = "0.3"
-serde ="1.0.104"
+serde ="1.0.106"
 serde_json = "1.0"
 # newer futures have unstable .await
-wasm-bindgen-futures = "0.4.8"
+wasm-bindgen-futures = "0.4.10"
 
 [dependencies.web-sys]
 version = "0.3.33"
