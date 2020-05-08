@@ -201,12 +201,12 @@ pub fn add_to_begin_of_debug_text(text: &str) {
 }
 
 /// utf8 truncate
-fn utf8_truncate(input: &mut String, max_size: usize) {
+pub fn utf8_truncate(input: &mut String, max_size: usize) {
     let mut utf8_max_size = input.len();
-    if utf8_max_size >= max_size {
+    if utf8_max_size > max_size {
         {
             let mut char_iter = input.char_indices();
-            while utf8_max_size >= max_size {
+            while utf8_max_size > max_size {
                 utf8_max_size = match char_iter.next_back() {
                     Some((index, _)) => index,
                     None => 0,
@@ -236,24 +236,10 @@ mod test {
         assert_eq!("[123]", prepare_json_msg_receivers_for_one(123));
     }
 
+    #[test]
     fn utf8_truncate01() {
         let mut x = "abcdefg".to_string();
         utf8_truncate(&mut x, 3);
         assert_eq!("abc", &x);
-    }
-}
-
-mod wasm_bindgen_test {
-    extern crate wasm_bindgen_test;
-    use wasm_bindgen_test::*;
-
-    #[wasm_bindgen_test]
-    fn pass() {
-        assert_eq!(1, 1);
-    }
-
-    #[wasm_bindgen_test]
-    fn fail() {
-        assert_eq!(1, 2); 
     }
 }

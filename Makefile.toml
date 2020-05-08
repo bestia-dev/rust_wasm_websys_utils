@@ -48,7 +48,10 @@ skip_core_tasks = true
     description = "cargo test --release"
     clear = true
     script = [
+        "echo $ cargo test --release",
         "cargo test --release",
+        "echo $ wasm-pack test --chrome",
+        "wasm-pack test --chrome",
     ]
 
     [tasks.audit]
