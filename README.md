@@ -1,8 +1,9 @@
 # rust_wasm_websys_utils
 
 [comment]: # (lmake_readme cargo.toml data start)
-version: 0.4.3  date: 2020-04-25 authors: Luciano Bestia  
-**micro crate web_sys and js_sys functions for my project**
+
+**micro crate web_sys and js_sys functions for my project**  
+***version: 0.4.3  date: 2020-04-25 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/rust_wasm_websys_utils)***  
 
 [comment]: # (lmake_readme cargo.toml data end)  
 
