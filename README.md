@@ -9,6 +9,8 @@
 
 [comment]: # (lmake_readme cargo.toml data end)  
 
+Hashtags: #rustlang #tutorial #web #wasm #webassembly
+
 ## web_sys and js_sys
 
 When developing the mem6 game  
