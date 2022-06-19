@@ -9,7 +9,8 @@
 
 [comment]: # (lmake_readme cargo.toml data end)  
 
-Hashtags: #rustlang #tutorial #web #wasm #webassembly
+Hashtags: #rustlang #tutorial #web #wasm #webassembly  
+My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 
 ## web_sys and js_sys
 
