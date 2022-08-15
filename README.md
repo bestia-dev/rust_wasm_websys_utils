@@ -5,7 +5,7 @@
 **micro crate web_sys and js_sys functions for my project**  
 ***version: 0.4.3  date: 2020-04-25 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust_wasm_websys_utils)***  
 
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/83847507)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/83847507.svg)
 
 [comment]: # (lmake_readme cargo.toml data end)  
 
