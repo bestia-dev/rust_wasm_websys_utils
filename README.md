@@ -9,6 +9,9 @@
 
 [comment]: # (lmake_readme cargo.toml data end)  
 
+![status](https://img.shields.io/badge/maintained-green) 
+![status](https://img.shields.io/badge/ready_for_use-green) 
+
 Hashtags: #rustlang #tutorial #web #wasm #webassembly  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 
