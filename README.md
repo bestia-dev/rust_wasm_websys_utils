@@ -1,15 +1,15 @@
 # rust_wasm_websys_utils
 
-[comment]: # (lmake_readme cargo.toml data start)
+[//]: # (auto_readme cargo.toml data start)
 
 **micro crate web_sys and js_sys functions for my project**  
 ***version: 0.4.3  date: 2020-04-25 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust_wasm_websys_utils)***  
 
-[comment]: # (lmake_readme cargo.toml data end)  
+[//]: # (auto_readme cargo.toml data end)  
 
-![status](https://img.shields.io/badge/maintained-green) 
-![status](https://img.shields.io/badge/ready_for_use-green) 
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/83847507.svg) 
+ ![maintained](https://img.shields.io/badge/maintained-green)
+ ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
+ ![rust_wasm_websys_utils](https://bestia.dev/webpage_hit_counter/get_svg_image/83847507.svg)
 
 Hashtags: #rustlang #tutorial #web #wasm #webassembly  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
