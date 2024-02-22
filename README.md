@@ -24,14 +24,6 @@ and fill it with functions I needed for that particular project.
 I made a separate crate as a library to share code with other projects.  
 Functions will be eventually added and also modified or refactored in specialized crates.  
 
-## cargo crev reviews and advisory
-
-It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
-to verify the trustworthiness of each of your dependencies.  
-Please, spread this info.  
-On the web use this url to read crate reviews. Example:  
-<https://web.crev.dev/rust-reviews/crate/num-traits/>  
-
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
