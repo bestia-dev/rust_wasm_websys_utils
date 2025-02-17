@@ -12,6 +12,7 @@
 
  ![maintained](https://img.shields.io/badge/maintained-green)
  ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
+ ![License](https://img.shields.io/badge/license-MIT-blue.svg)
  ![rust_wasm_websys_utils](https://bestia.dev/webpage_hit_counter/get_svg_image/83847507.svg)
 
 Hashtags: #rustlang #tutorial #web #wasm #webassembly  
