@@ -8,6 +8,7 @@ description = "micro crate web_sys and js_sys functions for my project"
 repository = "https://github.com/bestia-dev/rust_wasm_websys_utils"
 readme = "README.md"
 license = "MIT"
+# Keyword must be only one word: lowercase letters, hyphens(-) or numbers, less then 35 characters, at most 5 keywords per crate
 keywords = ["wasm","web_sys","js_sys"]
 categories = ["wasm","web-programming"]
 # publish as a crates.io library. Only this files.
